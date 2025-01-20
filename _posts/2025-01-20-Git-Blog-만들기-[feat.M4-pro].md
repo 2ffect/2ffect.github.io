@@ -42,7 +42,7 @@ $ brew install ruby
 [Chirpy Fork](https://github.com/cotes2020/jekyll-theme-chirpy/fork) 링크로 들어가서 레퍼지토리를 fork 해옵니다.
 
 이때, 레퍼지토리 이름을 **{github_user.name}.github.io** 양식과 같이 변경하여 아래 사진과 같이 설정해줍니다.
-![alt text](/_posts/img/image1.png "저는 이미 레퍼지토리가 있기 때문에 빨간색으로 나오네용")
+![alt text](/_posts/img/image1.png)
 
 ### 소스코드 클론 받기
 GitHub 블로그를 제어 할 디렉토리 안에서 아래의 명령을 사용해 소스코드를 클론받는다.
