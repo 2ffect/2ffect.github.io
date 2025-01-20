@@ -73,7 +73,7 @@ $ jekyll serve
 ```
 정상적으로 수행됐다면 아래와 같이 출력이 됩니다.
 
-(사진 추가 예정)
+![alt text](/assets/img/serverrun.png)
 
 보시다시피 **Server address: http://127.0.0.1:4000/** 라고 떠있습니다.
 
@@ -91,15 +91,25 @@ $ jekyll serve
 읽어주셔서 감사합니다 !!😊😊
 
 
+<br>
 
-
-
-<!-- 
-### 문제 해결
-진행을 했을 때 몇가지 에러가 발생할 수 있습니다.
+# 문제 해결
+진행을 했을 때 몇가지 에러가 발생할 수 있습니다. <br>제가 겪었던 문제를 바탕으로 정리 해보겠습니다.
 
 1. **command not found: jekyll**
 
     - 로컬 환경에 jekyll이 설치되지 않아서 그렇습니다.
     - [MacOS에 Jekyll](https://jekyllrb-ko.github.io/docs/installation/macos/) 설치를 참조하여 설치 해줍시다.
- -->
+
+2.  HTML-Proofer found 2 failures!<br>
+Error: Process completed with exit code 1.
+
+    - 포스트를 작성하고 commit 후 push가 정상적으로 되었는데 배포에서 문제가 발생 했습니다.
+    - 이미지를 넣고 작성하는 포스트가 처음이라 이미지를 저장할 디렉토리를 잘못 지정해서 발생한 에러였어요.
+    - 이미지 경로를 /assets/img/ 폴더에 저장했더니 배포가 잘 됐습니다.
+
+
+### 참고
+    - https://www.irgroup.org/
+    - https://sogummi.tistory.com/11
+    
